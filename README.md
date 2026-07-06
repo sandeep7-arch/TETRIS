@@ -1,7 +1,7 @@
 # TETRIS
 This is a minimalistic tetris game , following many standard tetris guidelines.
 This doesn't have a pause feature so yeah , and backend of the tetris grid is a array of 16 bit integers  (where the frist 10 bits build the X-axis of the 2D plane)
-And regarding scoring each block added gives +25 and for each 'l' lines cleard we get +(l^2)*100
+And regarding scoring each block added gives +25 and for 'n' lines cleard we get for each line +(100*l)
 ## PREREQUISITES
 this need raylib , so whatever OS you are on , just install raylib
 
@@ -33,6 +33,5 @@ right_shift --> to rotate the piece
 ```
 ```
 Esc --> quit
-'''
 
 
